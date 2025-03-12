@@ -1,0 +1,155 @@
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/office/Hard/P001/image_right/000471_right.png../../datasets/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../../datasets/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../../datasets/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/office/Hard/P001/image_right/000471_right.png../../datasets/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../../datasets/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../../datasets/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/office/Hard/P001/image_right/000471_right.png../../datasets/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../../datasets/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../../datasets/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/office/Hard/P001/image_right/000471_right.png../../datasets/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../../datasets/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../../datasets/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/office/Hard/P001/image_right/000471_right.png../../datasets/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../../datasets/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../../datasets/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/office/Hard/P001/image_right/000471_right.png../../datasets/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../../datasets/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../../datasets/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../../datasets/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../../datasets/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png../data/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' ../data/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png../data/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+index -1 is out of bounds for axis 0 with size 0 ../data/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg../data/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+Dimension out of range (expected to be in range of [-2, 1], but got 2)
+'NoneType' object has no attribute 'shape' /home/wjchoi/data3/TartanAir/office/Hard/P001/image_right/000471_right.png/home/wjchoi/data3/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+index -1 is out of bounds for axis 0 with size 0 /home/wjchoi/data/BriGeS/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg/home/wjchoi/data/BriGeS/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png/home/wodon326/datasets/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+index -1 is out of bounds for axis 0 with size 0 /home/wodon326/datasets/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg/home/wodon326/datasets/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png/home/wodon326/datasets/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+index -1 is out of bounds for axis 0 with size 0 /home/wodon326/datasets/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg/home/wodon326/datasets/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/office/Hard/P001/image_right/000471_right.png/home/wodon326/datasets/AsymKD/TartanAir/office/Hard/P001/depth_right/000471_right_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000474_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000474_left_depth.npy
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000467_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000467_left_depth.npy
+index -1 is out of bounds for axis 0 with size 0 /home/wodon326/datasets/AsymKD/BlendedMVS/00000000000000000000000f/blended_images/00000008_masked.jpg/home/wodon326/datasets/AsymKD/BlendedMVS/00000000000000000000000f/rendered_depth_maps/00000008.pfm
+'NoneType' object has no attribute 'shape' /home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/image_left/000471_left.png/home/wodon326/datasets/AsymKD/TartanAir/japanesealley/Easy/P007/depth_left/000471_left_depth.npy

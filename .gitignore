@@ -1,0 +1,13 @@
+*.pth
+*.pt
+*.pth.gz
+runs/
+AsymKD_inference_input/
+AsymKD_inference_result/
+DepthAnything_inference_input/
+DepthAnything_inference_result/
+last_runs/
+debug*
+eval_result*
+*.npz
+feature_visualize*

@@ -1,0 +1,35 @@
+#######AsymKD checkpoints_new_loss_001_smooth/107500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.758
+delta2_acc : 0.876
+delta3_acc : 0.928
+abs_relative_difference : 0.231
+squared_relative_difference : 10.342
+rmse_linear : 6.196
+rmse_log : 0.284
+log10 : 0.084
+i_rmse : 0.076
+silog_rmse : 26.876
+
+#######AsymKD checkpoints_new_loss_001_smooth/107000_AsymKD_new_loss.pth evaluate result#############
+@@@@delta1_acc : 0.759
+@@@@delta2_acc : 0.877
+@@@@delta3_acc : 0.929
+@@@@abs_relative_difference : 0.231
+@@@@squared_relative_difference : 10.693
+@@@@rmse_linear : 6.172
+@@@@rmse_log : 0.283
+@@@@log10 : 0.084
+@@@@i_rmse : 0.075
+@@@@silog_rmse : 26.764
+
+#######AsymKD checkpoints_new_loss_001_smooth/106000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.758
+delta2_acc : 0.875
+delta3_acc : 0.928
+abs_relative_difference : 0.232
+squared_relative_difference : 10.757
+rmse_linear : 6.245
+rmse_log : 0.285
+log10 : 0.084
+i_rmse : 0.075
+silog_rmse : 26.881

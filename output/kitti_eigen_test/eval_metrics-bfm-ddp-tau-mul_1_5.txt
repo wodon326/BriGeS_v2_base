@@ -1,0 +1,732 @@
+#######AsymKD checkpoints_new_loss_001_smooth/129000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.939
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.418
+rmse_linear : 3.524
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.63
+
+#######AsymKD checkpoints_new_loss_001_smooth/127000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.94
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.417
+rmse_linear : 3.515
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.624
+
+#######AsymKD checkpoints_new_loss_001_smooth/129500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.94
+delta2_acc : 0.991
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.416
+rmse_linear : 3.516
+rmse_log : 0.116
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.602
+
+#######AsymKD checkpoints_new_loss_001_smooth/127500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.423
+rmse_linear : 3.53
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.753
+
+#######AsymKD checkpoints_new_loss_001_smooth/128000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.423
+rmse_linear : 3.541
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.829
+
+#######AsymKD checkpoints_new_loss_001_smooth/128500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.424
+rmse_linear : 3.557
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.921
+
+#######AsymKD checkpoints_new_loss_001_smooth/126500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.422
+rmse_linear : 3.536
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.867
+
+#######AsymKD checkpoints_new_loss_001_smooth/130000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.42
+rmse_linear : 3.548
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.665
+
+#######AsymKD checkpoints_new_loss_001_smooth/125000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.436
+rmse_linear : 3.566
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.729
+
+#######AsymKD checkpoints_new_loss_001_smooth/124000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.939
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.08
+squared_relative_difference : 0.399
+rmse_linear : 3.496
+rmse_log : 0.116
+log10 : 0.034
+i_rmse : 0.008
+silog_rmse : 11.558
+
+#######AsymKD checkpoints_new_loss_001_smooth/125500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.417
+rmse_linear : 3.53
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.742
+
+#######AsymKD checkpoints_new_loss_001_smooth/126000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.451
+rmse_linear : 3.604
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.943
+
+#######AsymKD checkpoints_new_loss_001_smooth/124500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.94
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.417
+rmse_linear : 3.498
+rmse_log : 0.116
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.581
+
+#######AsymKD checkpoints_new_loss_001_smooth/123500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.939
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.081
+squared_relative_difference : 0.402
+rmse_linear : 3.502
+rmse_log : 0.116
+log10 : 0.034
+i_rmse : 0.008
+silog_rmse : 11.571
+
+#######AsymKD checkpoints_new_loss_001_smooth/123000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.413
+rmse_linear : 3.528
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.772
+
+#######AsymKD checkpoints_new_loss_001_smooth/122000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.086
+squared_relative_difference : 0.45
+rmse_linear : 3.616
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.982
+
+#######AsymKD checkpoints_new_loss_001_smooth/120000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.412
+rmse_linear : 3.535
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.771
+
+#######AsymKD checkpoints_new_loss_001_smooth/120500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.93
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.088
+squared_relative_difference : 0.438
+rmse_linear : 3.64
+rmse_log : 0.124
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.296
+
+#######AsymKD checkpoints_new_loss_001_smooth/121500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.421
+rmse_linear : 3.544
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.939
+
+#######AsymKD checkpoints_new_loss_001_smooth/121000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.431
+rmse_linear : 3.59
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.963
+
+#######AsymKD checkpoints_new_loss_001_smooth/119500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.94
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.432
+rmse_linear : 3.549
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.681
+
+#######AsymKD checkpoints_new_loss_001_smooth/119000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.932
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.086
+squared_relative_difference : 0.439
+rmse_linear : 3.618
+rmse_log : 0.122
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 12.128
+
+#######AsymKD checkpoints_new_loss_001_smooth/122500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.424
+rmse_linear : 3.538
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.902
+
+#######AsymKD checkpoints_new_loss_001_smooth/118500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.94
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.421
+rmse_linear : 3.519
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.632
+
+#######AsymKD checkpoints_new_loss_001_smooth/116500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.428
+rmse_linear : 3.552
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.721
+
+#######AsymKD checkpoints_new_loss_001_smooth/117500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.934
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.432
+rmse_linear : 3.583
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.974
+
+#######AsymKD checkpoints_new_loss_001_smooth/118000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.933
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.087
+squared_relative_difference : 0.43
+rmse_linear : 3.585
+rmse_log : 0.122
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.127
+
+#######AsymKD checkpoints_new_loss_001_smooth/116000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.93
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.087
+squared_relative_difference : 0.46
+rmse_linear : 3.664
+rmse_log : 0.123
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.291
+
+#######AsymKD checkpoints_new_loss_001_smooth/117000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.939
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.08
+squared_relative_difference : 0.414
+rmse_linear : 3.515
+rmse_log : 0.116
+log10 : 0.034
+i_rmse : 0.008
+silog_rmse : 11.523
+
+#######AsymKD checkpoints_new_loss_001_smooth/115500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.934
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.415
+rmse_linear : 3.545
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.894
+
+#######AsymKD checkpoints_new_loss_001_smooth/115000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.933
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.417
+rmse_linear : 3.558
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.965
+
+#######AsymKD checkpoints_new_loss_001_smooth/114500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.933
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.086
+squared_relative_difference : 0.419
+rmse_linear : 3.564
+rmse_log : 0.121
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.035
+
+#######AsymKD checkpoints_new_loss_001_smooth/114000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.425
+rmse_linear : 3.537
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.846
+
+#######AsymKD checkpoints_new_loss_001_smooth/113500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.933
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.416
+rmse_linear : 3.569
+rmse_log : 0.121
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 12.005
+
+#######AsymKD checkpoints_new_loss_001_smooth/112500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.081
+squared_relative_difference : 0.399
+rmse_linear : 3.516
+rmse_log : 0.117
+log10 : 0.034
+i_rmse : 0.008
+silog_rmse : 11.607
+
+#######AsymKD checkpoints_new_loss_001_smooth/113000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.414
+rmse_linear : 3.552
+rmse_log : 0.119
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.844
+
+#######AsymKD checkpoints_new_loss_001_smooth/112000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.432
+rmse_linear : 3.568
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.913
+
+#######AsymKD checkpoints_new_loss_001_smooth/111500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.438
+rmse_linear : 3.573
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.932
+
+#######AsymKD checkpoints_new_loss_001_smooth/110500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.41
+rmse_linear : 3.517
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.681
+
+#######AsymKD checkpoints_new_loss_001_smooth/110000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.939
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.081
+squared_relative_difference : 0.405
+rmse_linear : 3.5
+rmse_log : 0.116
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.601
+
+#######AsymKD checkpoints_new_loss_001_smooth/109500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.412
+rmse_linear : 3.519
+rmse_log : 0.118
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.746
+
+#######AsymKD checkpoints_new_loss_001_smooth/109000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.407
+rmse_linear : 3.544
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.008
+silog_rmse : 11.825
+
+#######AsymKD checkpoints_new_loss_001_smooth/108500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.419
+rmse_linear : 3.552
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.924
+
+#######AsymKD checkpoints_new_loss_001_smooth/108000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.405
+rmse_linear : 3.508
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.642
+
+#######AsymKD checkpoints_new_loss_001_smooth/107500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.932
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.427
+rmse_linear : 3.617
+rmse_log : 0.121
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 12.017
+
+#######AsymKD checkpoints_new_loss_001_smooth/111000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.938
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.082
+squared_relative_difference : 0.411
+rmse_linear : 3.506
+rmse_log : 0.117
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.675
+
+#######AsymKD checkpoints_new_loss_001_smooth/107000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.932
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.086
+squared_relative_difference : 0.421
+rmse_linear : 3.606
+rmse_log : 0.122
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.096
+
+#######AsymKD checkpoints_new_loss_001_smooth/106500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.936
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.442
+rmse_linear : 3.603
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.934
+
+#######AsymKD checkpoints_new_loss_001_smooth/106000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.934
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.438
+rmse_linear : 3.607
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.977
+
+#######AsymKD checkpoints_new_loss_001_smooth/104500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.934
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.085
+squared_relative_difference : 0.432
+rmse_linear : 3.591
+rmse_log : 0.12
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.986
+
+#######AsymKD checkpoints_new_loss_001_smooth/105500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.934
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.086
+squared_relative_difference : 0.445
+rmse_linear : 3.609
+rmse_log : 0.121
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 12.012
+
+#######AsymKD checkpoints_new_loss_001_smooth/105000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.931
+delta2_acc : 0.989
+delta3_acc : 0.997
+abs_relative_difference : 0.088
+squared_relative_difference : 0.468
+rmse_linear : 3.679
+rmse_log : 0.123
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.289
+
+#######AsymKD checkpoints_new_loss_001_smooth/104000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.935
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.086
+squared_relative_difference : 0.446
+rmse_linear : 3.607
+rmse_log : 0.121
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 12.028
+
+#######AsymKD checkpoints_new_loss_001_smooth/103000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.926
+delta2_acc : 0.988
+delta3_acc : 0.998
+abs_relative_difference : 0.091
+squared_relative_difference : 0.472
+rmse_linear : 3.731
+rmse_log : 0.127
+log10 : 0.039
+i_rmse : 0.009
+silog_rmse : 12.606
+
+#######AsymKD checkpoints_new_loss_001_smooth/102500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.927
+delta2_acc : 0.988
+delta3_acc : 0.998
+abs_relative_difference : 0.089
+squared_relative_difference : 0.455
+rmse_linear : 3.719
+rmse_log : 0.125
+log10 : 0.038
+i_rmse : 0.009
+silog_rmse : 12.484
+
+#######AsymKD checkpoints_new_loss_001_smooth/102000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.932
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.087
+squared_relative_difference : 0.435
+rmse_linear : 3.636
+rmse_log : 0.122
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.155
+
+#######AsymKD checkpoints_new_loss_001_smooth/101500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.931
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.087
+squared_relative_difference : 0.447
+rmse_linear : 3.652
+rmse_log : 0.122
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.182
+
+#######AsymKD checkpoints_new_loss_001_smooth/101000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.084
+squared_relative_difference : 0.424
+rmse_linear : 3.536
+rmse_log : 0.119
+log10 : 0.036
+i_rmse : 0.009
+silog_rmse : 11.822
+
+#######AsymKD checkpoints_new_loss_001_smooth/100500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.939
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.449
+rmse_linear : 3.601
+rmse_log : 0.118
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.77
+
+#######AsymKD checkpoints_new_loss_001_smooth/103500_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.931
+delta2_acc : 0.989
+delta3_acc : 0.998
+abs_relative_difference : 0.088
+squared_relative_difference : 0.453
+rmse_linear : 3.645
+rmse_log : 0.123
+log10 : 0.037
+i_rmse : 0.009
+silog_rmse : 12.264
+
+#######AsymKD checkpoints_new_loss_001_smooth/100000_AsymKD_new_loss.pth evaluate result#############
+delta1_acc : 0.937
+delta2_acc : 0.99
+delta3_acc : 0.998
+abs_relative_difference : 0.083
+squared_relative_difference : 0.437
+rmse_linear : 3.573
+rmse_log : 0.119
+log10 : 0.035
+i_rmse : 0.008
+silog_rmse : 11.819
+
