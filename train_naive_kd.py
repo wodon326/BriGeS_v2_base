@@ -18,6 +18,8 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 
 from AsymKD.depth_latent4_kd_naive_split_adapter import kd_naive_depth_latent4_split_adapter
 from AsymKD.depth_latent4_kd_naive_split_adapter_cbam import kd_naive_depth_latent4_split_adapter_cbam
+from AsymKD.depth_latent4_kd_naive_lora_adapter import kd_naive_depth_latent4_lora_adapter
+from AsymKD.depth_latent4_kd_grouped_attn_adapter import kd_naive_depth_latent4_grouped_attn_adapter
 from AsymKD.dpt import AsymKD_DepthAnything
 from segment_anything import  sam_model_registry, SamPredictor
 
@@ -54,6 +56,9 @@ def cleanup():
 
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters())
+
+def count_trainable_parameters(model):
+    return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 def compute_errors(flow_gt, flow_preds, valid_arr):
     """Compute metrics for 'pred' compared to 'gt'
@@ -297,12 +302,12 @@ def train(rank, world_size, args):
             print('BriGeS : ', new_state_dict.keys())
 
         # load model
-        AsymKD_naive_kd = kd_naive_depth_latent4_split_adapter_cbam().to(rank)
+        AsymKD_naive_kd = kd_naive_depth_latent4_grouped_attn_adapter().to(rank)
         new_state_dict = AsymKD_naive_kd.load_ckpt(args.student_ckpt, device=torch.device('cuda', rank))
         if rank == 0:
             logging.info(f"loading backbones from {args.student_ckpt}")
             print('AsymKD_naive_kd : ', new_state_dict.keys())
-        AsymKD_naive_kd.freeze_kd_naive_dpt_latent4_split_adapter_cbam_with_kd_style()
+        AsymKD_naive_kd.freeze_kd_naive_dpt_latent4_grouped_attn_adapter_with_kd_style()
         
         if rank == 0:
             for n, p in AsymKD_naive_kd.named_parameters():
@@ -314,6 +319,7 @@ def train(rank, world_size, args):
         
         if rank == 0:
             print(f"Parameter Count: {count_parameters(model)}")
+            print(f"Trainable Parameter Count: {count_trainable_parameters(model)}")
             logging.info(f"Parameter Count: {count_parameters(model)}")
             logging.info("AsymKD_VIT Train")
         
@@ -379,7 +385,7 @@ def train(rank, world_size, args):
                     # _ , metrics = sequence_loss(flow_predictions, flow, valid.bool().unsqueeze(1))
                     # logger.push(metrics, "train_student")
 
-                    if(total_steps % 10 == 10-1):
+                    if(total_steps % 100 == 100-1):
                         # inference visualization in tensorboard while training
                         rgb = depth_image[0].cpu().detach().numpy()
                         rgb = ((rgb - np.min(rgb)) / (np.max(rgb) - np.min(rgb))) * 255

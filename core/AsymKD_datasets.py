@@ -21,7 +21,6 @@ import cv2
 import json
 from core.utils import frame_utils
 from core.utils.augmentor import FlowAugmentor, SparseFlowAugmentor
-from core.utils.augmentor_kd import Augmentor_with_gt, Augmentor_with_no_gt
 import torch.nn as nn
 
 
@@ -32,7 +31,11 @@ class StereoDataset(data.Dataset):
         self.img_pad = aug_params.pop("img_pad", None) if aug_params is not None else None
         self.crop_size = None
         if aug_params is not None and "crop_size" in aug_params:
-            self.augmentor = Augmentor_with_gt(**aug_params)
+            #self.augmentor = SparseFlowAugmentor(**aug_params)
+            if sparse:
+                self.augmentor = SparseFlowAugmentor(**aug_params)
+            else:
+                self.augmentor = FlowAugmentor(**aug_params)
             self.crop_size = [aug_params['crop_size'][0],aug_params['crop_size'][1]]
             self.resize = Resize(
                     height=aug_params['crop_size'][0],
@@ -132,13 +135,12 @@ class StereoDataset(data.Dataset):
 
             # if self.augmentor is not None:
             #     depth_image, seg_image, flow, valid = self.augmentor(img1, img1, flow, valid)
-            depth_image, flow, valid = self.augmentor(img1, flow, valid)
-            seg_image = depth_image
-            # if self.augmentor is not None:
-            #     if self.sparse:
-            #         depth_image, seg_image, flow, valid = self.augmentor(img1, img1, flow, valid)
-            #     else:
-            #         depth_image, seg_image, flow = self.augmentor(img1, img1, flow)
+
+            if self.augmentor is not None:
+                if self.sparse:
+                    depth_image, seg_image, flow, valid = self.augmentor(img1, img1, flow, valid)
+                else:
+                    depth_image, seg_image, flow = self.augmentor(img1, img1, flow)
 
             disp = np.array(disp).astype(np.float32)
             depth_image = cv2.cvtColor(depth_image, cv2.COLOR_BGR2RGB) / 255.0
@@ -287,8 +289,8 @@ class FallingThings(StereoDataset):
             self.image_list += [ [img1, img2] ]
             self.disparity_list += [ disp ]
 
-class TartanAir(StereoDataset): #/home/wodon326/datasets/AsymKD
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD', keywords=[]):
+class TartanAir(StereoDataset): #/home/wjchoi/data/BriGeS
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data3', keywords=[]):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispTartanAir)
         assert os.path.exists(root)
         
@@ -311,7 +313,7 @@ class TartanAir(StereoDataset): #/home/wodon326/datasets/AsymKD
                 quit()
 
 class KITTI(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/kitti/kitti2015', image_set='training'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/kitti/kitti2015', image_set='training'):
         super(KITTI, self).__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispKITTI)
         assert os.path.exists(root)
 
@@ -333,7 +335,7 @@ class KITTI(StereoDataset):
                 quit()
 
 class KITTI2012(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/kitti/kitti2012', image_set='training'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/kitti/kitti2012', image_set='training'):
         super(KITTI2012, self).__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispKITTI2012)
         assert os.path.exists(root)
 
@@ -348,7 +350,7 @@ class KITTI2012(StereoDataset):
                 quit()
 
 class MegaDepth(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/MegaDepth'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/MegaDepth'):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispMegaDepth)
         assert os.path.exists(root)
 
@@ -363,7 +365,7 @@ class MegaDepth(StereoDataset):
                 quit()
 
 class HRWSI(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/HRWSI'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/HRWSI'):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispHRWSI)
         assert os.path.exists(root)
 
@@ -378,18 +380,21 @@ class HRWSI(StereoDataset):
                 quit()
 
 class BlendedMVS(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/BlendedMVS'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/BlendedMVS'):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispBlendedMVS)
         assert os.path.exists(root)
 
-        images = sorted( glob(osp.join(root, '*/blended_images/*_masked.jpg')) )
+        # images = sorted( glob(osp.join(root, '*/blended_images/*_masked.jpg')) )
         # images = [img.replace('_masked', '') for img in images]
+        images = sorted(glob(osp.join(root, '*/blended_images/*.jpg')))
+        images = [img for img in images if '_masked' not in osp.basename(img)]
+        images = sorted(images)
         disparities = sorted( glob(osp.join(root, '*/rendered_depth_maps/*.pfm')) )
 
         for img, disp in zip(images, disparities):
             self.image_list += [ img ]
             self.disparity_list += [ disp ]
-            if (img.replace('_masked', '').replace('blended_images','rendered_depth_maps').replace('jpg','pfm') != disp):
+            if (img.replace('blended_images','rendered_depth_maps').replace('jpg','pfm') != disp):
                 print("Error : ", img, disp)
                 quit()
 

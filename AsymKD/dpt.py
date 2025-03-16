@@ -265,7 +265,7 @@ class AsymKD_DPTHead(nn.Module):
         depth_out = F.interpolate(depth_out, (int(depth_patch_h * 14), int(depth_patch_w * 14)), mode="bilinear", align_corners=True)
         depth_out = self.scratch.output_conv2(depth_out)
         
-        return depth_out, return_Cross_Attention_Features, conv_selected_layer
+        return depth_out, return_Cross_Attention_Features
 
         
 class AsymKD_DepthAnything(nn.Module):
@@ -325,6 +325,33 @@ class AsymKD_DepthAnything(nn.Module):
 
 
         return depth
+    
+    def forward(self, depth_image,seg_image):
+
+
+        depth_image_h, depth_image_w = depth_image.shape[-2:]
+        seg_image_h, seg_image_w = seg_image.shape[-2:]
+        self.ImageEncoderViT.eval()
+        self.depth_anything.eval()
+
+        
+        depth_intermediate_features = self.depth_anything(depth_image)
+        
+        seg_intermediate_features = self.ImageEncoderViT(seg_image)
+
+
+
+        depth_patch_h, depth_patch_w = depth_image_h // 14, depth_image_w // 14
+        seg_patch_h, seg_patch_w = seg_image_h // 16, seg_image_w // 16
+
+
+        depth = self.depth_head(depth_intermediate_features, depth_patch_h, depth_patch_w, seg_intermediate_features, seg_patch_h, seg_patch_w )
+        depth = F.interpolate(depth, size=(depth_patch_h*14, depth_patch_w*14), mode="bilinear", align_corners=True)
+        depth = F.relu(depth)
+        depth = self.nomalize(depth) if self.training else depth
+
+
+        return depth
 
         
     def forward_with_depth_features(self, depth_intermediate_features, depth_image, seg_image):
@@ -347,13 +374,13 @@ class AsymKD_DepthAnything(nn.Module):
         seg_patch_h, seg_patch_w = seg_image_h // 16, seg_image_w // 16
 
 
-        depth, Cross_Attention_Features, conv_features = self.depth_head.forward_return_Cross_Attention_Features(depth_intermediate_features, depth_patch_h, depth_patch_w, seg_intermediate_features, seg_patch_h, seg_patch_w )
+        depth, Cross_Attention_Features = self.depth_head.forward_return_Cross_Attention_Features(depth_intermediate_features, depth_patch_h, depth_patch_w, seg_intermediate_features, seg_patch_h, seg_patch_w )
         depth = F.interpolate(depth, size=(depth_patch_h*14, depth_patch_w*14), mode="bilinear", align_corners=True)
         depth = F.relu(depth)
         depth = self.nomalize(depth) if self.training else depth
 
 
-        return depth, Cross_Attention_Features, conv_features
+        return depth, Cross_Attention_Features
 
     
     def load_ckpt(
