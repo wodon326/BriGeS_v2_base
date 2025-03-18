@@ -45,7 +45,7 @@ from dataset.util.metric import MetricTracker
 import torch.nn.functional as F
 from depth_anything_for_evaluate.dpt import DepthAnything
 from segment_anything import sam_model_registry, SamPredictor
-from AsymKD.dpt import AsymKD_DepthAnything_Infer,AsymKD_DepthAnything_Infer_tau
+from AsymKD.BriGeS import BriGeS
 from torch.multiprocessing import Manager
 import torch.distributed as dist
 import torch.multiprocessing as mp

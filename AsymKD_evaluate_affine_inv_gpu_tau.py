@@ -46,7 +46,7 @@ import torch.nn.functional as F
 
 from depth_anything_for_evaluate.dpt import DepthAnything
 from segment_anything import sam_model_registry, SamPredictor
-from AsymKD.dpt import AsymKD_DepthAnything_Infer,AsymKD_DepthAnything_Infer_tau
+from AsymKD.BriGeS import BriGeS
 from dpt.models import DPTDepthModel
 from midas.model_loader import default_models, load_model
 

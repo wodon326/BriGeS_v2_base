@@ -3,5 +3,5 @@ python train_briges.py \
     --num_steps 1000000 \
     --lr 0.00005 \
     --train_datasets HRWSI BlendedMVS tartan_air \
-    --save_dir BriGeS_cbam \
+    --save_dir BriGeS_decoder_unfreeze \
     --train_style trans

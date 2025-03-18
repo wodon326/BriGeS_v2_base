@@ -12,7 +12,7 @@ from segment_anything.utils.onnx import SamOnnxModel
 
 from depth_anything.dpt import DepthAnything
 from depth_anything.util.transform import Resize, NormalizeImage, PrepareForNet
-from AsymKD.dpt import AsymKD_DepthAnything
+from AsymKD.BriGeS import BriGeS
 import time
 
 

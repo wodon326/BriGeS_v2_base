@@ -19,6 +19,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from AsymKD.depth_latent4_kd_naive_split_adapter import kd_naive_depth_latent4_split_adapter
 from AsymKD.depth_latent4_kd_naive_split_adapter_cbam import kd_naive_depth_latent4_split_adapter_cbam
 from AsymKD.BriGeS_cbam import BriGeS_cbam
+from AsymKD.BriGeS_decoder_unfreeze import BriGeS_decoder_unfreeze
 from segment_anything import  sam_model_registry, SamPredictor
 
 from core.loss import GradL1Loss, ScaleAndShiftInvariantLoss
@@ -290,11 +291,11 @@ def train(rank, world_size, args):
         for child in segment_anything.children():
             ImageEncoderViT = child
             break
-        BriGeS = BriGeS_cbam(ImageEncoderViT = ImageEncoderViT).to(rank)
+        BriGeS = BriGeS_decoder_unfreeze(ImageEncoderViT = ImageEncoderViT).to(rank)
 
         checkpoint = "BriGeS_checkpoints/depth_anything_vitb14.pth"
         new_state_dict = BriGeS.load_ckpt(checkpoint, device=torch.device('cuda', rank))
-        BriGeS.freeze_BriGeS_cbam_style()
+        BriGeS.freeze_BriGeS_unfreeze_deocder_style()
         if rank == 0:
             logging.info(f"loading backbones from {checkpoint}")
             print('BriGeS : ', new_state_dict.keys())

@@ -8,7 +8,7 @@ from torchvision.transforms import Compose
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
-from AsymKD.dpt import AsymKD_DepthAnything
+from AsymKD.BriGeS import BriGeS
 
 if __name__ == '__main__':
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'

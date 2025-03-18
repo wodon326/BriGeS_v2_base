@@ -20,7 +20,7 @@ from AsymKD.depth_latent4_kd_naive_split_adapter import kd_naive_depth_latent4_s
 from AsymKD.depth_latent4_kd_naive_split_adapter_cbam import kd_naive_depth_latent4_split_adapter_cbam
 from AsymKD.depth_latent4_kd_naive_lora_adapter import kd_naive_depth_latent4_lora_adapter
 from AsymKD.depth_latent4_kd_grouped_attn_adapter import kd_naive_depth_latent4_grouped_attn_adapter
-from AsymKD.dpt import AsymKD_DepthAnything
+from BriGeS_v2_base.AsymKD.BriGeS import AsymKD_DepthAnything
 from segment_anything import  sam_model_registry, SamPredictor
 
 from core.loss import GradL1Loss, ScaleAndShiftInvariantLoss
