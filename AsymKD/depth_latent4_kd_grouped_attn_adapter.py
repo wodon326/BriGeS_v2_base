@@ -300,7 +300,7 @@ class kd_naive_depth_latent4_grouped_attn_adapter(nn.Module):
         
         dim = self.pretrained.blocks[0].attn.qkv.in_features
         
-        self.group_dim = 16
+        self.group_dim = 48
         self.num_groups = dim // self.group_dim
         
         depth = 1

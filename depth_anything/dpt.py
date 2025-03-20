@@ -158,7 +158,7 @@ class DPT_DINOv2(nn.Module):
         
 
         
-        features = self.pretrained.get_intermediate_layers(x, 4, return_class_token=True)
+        features = self.pretrained.get_intermediate_layers(x, 4, return_class_token=False)
         
         # print("############")
         # for layer in features:

@@ -381,6 +381,24 @@ class AsymKD_DepthAnything(nn.Module):
 
 
         return depth, Cross_Attention_Features
+        
+    def forward_with_encoder_features(self, depth_image, seg_image):
+
+
+        depth_image_h, depth_image_w = depth_image.shape[-2:]
+        seg_image_h, seg_image_w = seg_image.shape[-2:]
+        self.ImageEncoderViT.eval()
+
+        
+        depth_intermediate_features = self.depth_anything(depth_image)
+        
+
+
+        seg_intermediate_features = self.ImageEncoderViT(seg_image)
+
+
+
+        return depth_intermediate_features, seg_intermediate_features
 
     
     def load_ckpt(

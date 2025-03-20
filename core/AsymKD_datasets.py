@@ -290,7 +290,7 @@ class FallingThings(StereoDataset):
             self.disparity_list += [ disp ]
 
 class TartanAir(StereoDataset): #/home/wjchoi/data/BriGeS
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data3', keywords=[]):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD', keywords=[]):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispTartanAir)
         assert os.path.exists(root)
         
@@ -313,7 +313,7 @@ class TartanAir(StereoDataset): #/home/wjchoi/data/BriGeS
                 quit()
 
 class KITTI(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/kitti/kitti2015', image_set='training'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/kitti/kitti2015', image_set='training'):
         super(KITTI, self).__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispKITTI)
         assert os.path.exists(root)
 
@@ -335,7 +335,7 @@ class KITTI(StereoDataset):
                 quit()
 
 class KITTI2012(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/kitti/kitti2012', image_set='training'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/kitti/kitti2012', image_set='training'):
         super(KITTI2012, self).__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispKITTI2012)
         assert os.path.exists(root)
 
@@ -350,7 +350,7 @@ class KITTI2012(StereoDataset):
                 quit()
 
 class MegaDepth(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/MegaDepth'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/MegaDepth'):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispMegaDepth)
         assert os.path.exists(root)
 
@@ -365,7 +365,7 @@ class MegaDepth(StereoDataset):
                 quit()
 
 class HRWSI(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/HRWSI'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/HRWSI'):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispHRWSI)
         assert os.path.exists(root)
 
@@ -380,7 +380,7 @@ class HRWSI(StereoDataset):
                 quit()
 
 class BlendedMVS(StereoDataset):
-    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wjchoi/data/BriGeS/BlendedMVS'):
+    def __init__(self, seg_any_predictor:SamPredictor, aug_params=None, root='/home/wodon326/datasets/AsymKD/BlendedMVS'):
         super().__init__(seg_any_predictor, aug_params, sparse=True, reader=frame_utils.readDispBlendedMVS)
         assert os.path.exists(root)
 
