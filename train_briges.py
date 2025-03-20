@@ -295,7 +295,7 @@ def train(rank, world_size, args):
 
         checkpoint = "BriGeS_checkpoints/depth_anything_vitb14.pth"
         new_state_dict = BriGeS.load_ckpt(checkpoint, device=torch.device('cuda', rank))
-        BriGeS.freeze_BriGeS_cbam_style()
+        BriGeS.freeze_BriGeS_unfreeze_deocder_style()
         if rank == 0:
             logging.info(f"loading backbones from {checkpoint}")
             print('BriGeS : ', new_state_dict.keys())

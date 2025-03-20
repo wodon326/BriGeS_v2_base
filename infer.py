@@ -3,7 +3,7 @@ import torch
 import os
 import matplotlib
 from segment_anything import sam_model_registry, SamPredictor
-from AsymKD.dpt import AsymKD_DepthAnything_visualize
+from AsymKD.BriGeS import BriGeS_visualize
 from depth_anything_for_evaluate.dpt import DepthAnything
 from torchvision import transforms
 from PIL import Image

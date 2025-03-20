@@ -268,35 +268,22 @@ class AsymKD_DPTHead(nn.Module):
         return depth_out, return_Cross_Attention_Features
 
         
-class AsymKD_DepthAnything(nn.Module):
+class BriGeS(nn.Module):
     def __init__(self, ImageEncoderViT, features=128, out_channels=[96, 192, 384, 768], use_bn=False, use_clstoken=False, localhub=True):
-        super(AsymKD_DepthAnything, self).__init__()
-        
+        super(BriGeS, self).__init__()
+        print('BriGeS')
         
         encoder = 'vitb' # can also be 'vitb' or 'vitl'
         self.depth_anything = DepthAnything.from_pretrained('LiheYoung/depth_anything_{}14'.format(encoder)).eval()
         
-
-        for param in self.depth_anything.parameters():
-            param.requires_grad = False
-
-        
-
         self.ImageEncoderViT = ImageEncoderViT
 
-        for i, (name, param) in enumerate(self.ImageEncoderViT.named_parameters()):
-            param.requires_grad = False
 
         dim = 768 #= self.pretrained.blocks[0].attn.qkv.in_features
         #dim = 1024
 
         self.depth_head = AsymKD_DPTHead(1, dim, features, use_bn, out_channels=out_channels, use_clstoken=use_clstoken)
         
-        for i, (name, param) in enumerate(self.depth_head.named_parameters()):
-            if(name.split('.')[0]!='Cross_Attention_blocks_layers' and name.split('.')[0]!='Blocks_layers'):
-                param.requires_grad = False
-            # else:
-            #     print(name)
         self.nomalize = NormalizeLayer()
 
     def forward(self, depth_image,seg_image):
@@ -326,32 +313,6 @@ class AsymKD_DepthAnything(nn.Module):
 
         return depth
     
-    def forward(self, depth_image,seg_image):
-
-
-        depth_image_h, depth_image_w = depth_image.shape[-2:]
-        seg_image_h, seg_image_w = seg_image.shape[-2:]
-        self.ImageEncoderViT.eval()
-        self.depth_anything.eval()
-
-        
-        depth_intermediate_features = self.depth_anything(depth_image)
-        
-        seg_intermediate_features = self.ImageEncoderViT(seg_image)
-
-
-
-        depth_patch_h, depth_patch_w = depth_image_h // 14, depth_image_w // 14
-        seg_patch_h, seg_patch_w = seg_image_h // 16, seg_image_w // 16
-
-
-        depth = self.depth_head(depth_intermediate_features, depth_patch_h, depth_patch_w, seg_intermediate_features, seg_patch_h, seg_patch_w )
-        depth = F.interpolate(depth, size=(depth_patch_h*14, depth_patch_w*14), mode="bilinear", align_corners=True)
-        depth = F.relu(depth)
-        depth = self.nomalize(depth) if self.training else depth
-
-
-        return depth
 
         
     def forward_with_depth_features(self, depth_intermediate_features, depth_image, seg_image):
@@ -400,6 +361,14 @@ class AsymKD_DepthAnything(nn.Module):
 
         return depth_intermediate_features, seg_intermediate_features
 
+    
+    def freeze_BriGeS_style(self):
+        
+        for i, (name, param) in enumerate(self.pretrained.named_parameters()):
+            param.requires_grad = False
+
+        for i, (name, param) in enumerate(self.depth_head.named_parameters()):
+            param.requires_grad = False
     
     def load_ckpt(
         self,

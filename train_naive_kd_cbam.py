@@ -18,7 +18,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 
 from AsymKD.depth_latent4_kd_naive_split_adapter import kd_naive_depth_latent4_split_adapter
 from AsymKD.depth_latent4_kd_naive_split_adapter_cbam import kd_naive_depth_latent4_split_adapter_cbam
-from AsymKD.dpt import AsymKD_DepthAnything
+from AsymKD.BriGeS import BriGeS
 from segment_anything import  sam_model_registry, SamPredictor
 
 from core.loss import GradL1Loss, ScaleAndShiftInvariantLoss

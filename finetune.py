@@ -11,7 +11,7 @@ from torch.utils.tensorboard import SummaryWriter
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from AsymKD.dpt import AsymKD_DepthAnything
+from AsymKD.BriGeS import BriGeS
 
 import torch.distributed as dist
 import torch.multiprocessing as mp

@@ -14,7 +14,7 @@ from tqdm import tqdm
 import core.AsymKD_datasets as datasets
 from core.utils import InputPadder
 from segment_anything import  sam_model_registry, SamPredictor
-from AsymKD.dpt import AsymKD_DepthAnything, AsymKD_DepthAnything_Infer
+from BriGeS_v2_base.AsymKD.BriGeS import AsymKD_DepthAnything, AsymKD_DepthAnything_Infer
 import torch.nn as nn
 from depth_anything_for_evaluate.dpt import DepthAnything
 import matplotlib.pyplot as plt

@@ -45,7 +45,7 @@ from dataset.util.metric import MetricTracker
 import torch.nn.functional as F
 from depth_anything_for_evaluate.dpt import DepthAnything
 from segment_anything import sam_model_registry, SamPredictor
-from AsymKD.dpt import AsymKD_DepthAnything_Infer
+from AsymKD.BriGeS import BriGeS
 
 @torch.no_grad()
 def infer(model, image, seg_image=None, **kwargs):
